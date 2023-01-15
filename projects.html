@@ -140,11 +140,35 @@
                             font-style:normal;
                             color:#0ea0ff;
                         }
+                        .seperator {
+                          background-color: currentColor;
+                          min-width: 25%;
+                          height: 2px;
+                          border: none;
+                          margin: auto;
+                          position: relative;
+
+                          &:before {
+                            font-family: cursive;
+                            content: '⚡';
+                            display: block;
+                            width: 15%;
+                            padding: 0.3em;
+                            font-size: 2em;
+                            text-align: center;
+                            position: absolute;
+                            top: 0;
+                            left: 50%;
+                            background-color: #f2f2f2;
+                            transform: translate(-50%, -50%); 
+                          }
+                        }
                     </style>
                     <div class="astrodivider"><div class="astrodividermask"></div><span><i>&#9889;</i></span></div>
                     <div class="web-scraper">
                         <br>
                             <h2 id="webscraper" align="center">Web Scraper in Python-3</h2>
+                            <hr class="seperator">
                         <br>
                             <iframe src="https://trinket.io/embed/python3/5d7481bcd4?runOption=run&start=result" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
                         <br>
@@ -153,6 +177,7 @@
                     <div class="font-change">
                         <br>
                             <h2 id="webscraper" align="center">Fluid Font in CSS & JavaScript</h2>
+                            <hr class="seperator">
                         <br>
                             <iframe src="https://trinket.io/embed/html/642e1c9863" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
                         <br>
