@@ -27,7 +27,6 @@
     <link rel="stylesheet" href="/assets/css/Lato.css">
     <link rel="stylesheet" href="/assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="/assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="/assets/fonts/simple-line-icons.min.css">
     <link rel="stylesheet" href="/assets/css/aos.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
@@ -39,7 +38,7 @@
 <body>
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
         <div class="container">
-            <div style="background: url(&quot;/assets/img/logos/BrentGoodmanLogoWhite.webp&quot;) center / contain no-repeat, var(--bs-navbar-disabled-color);width: 80px;height: 80px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;padding-left: 1px;margin-right: 10px;"></div><a class="navbar-brand logo" href="#">Brent Goodman</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div id="brent-goodman-logo" style="background: url(&quot;/assets/img/logos/BrentGoodmanLogoWhite.webp&quot;) center / contain no-repeat, var(--bs-navbar-disabled-color);width: 80px;height: 80px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;padding-left: 1px;margin-right: 10px;"></div><a class="navbar-brand logo" id="brand-name" href="/index.html">Brent Goodman</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
@@ -55,7 +54,7 @@
         <section class="portfolio-block projects-cards">
             <div class="container">
                 <div class="heading">
-                    <h2 style="font-size: 48px;margin-top: 18px;">Portfolio</h2>
+                    <h2 id="portfolio" style="font-size: 48px;margin-top: 18px;">Portfolio</h2>
                     <h2 style="margin-top: 14px;margin-bottom: 16px;"><div> 
 <section class="number-count">
       <!-- single number -->
@@ -80,12 +79,12 @@
 <script src="./number-count-app.js"></script>
 </div></h2>
                     <h2 style="font-size: 32px;margin-top: 18px;">The Contract Management Framework</h2>
-                    <div class="d-flex d-xxl-flex flex-column justify-content-center justify-content-xxl-center align-items-xxl-center"><img class="img-fluid" src="/assets/img/projects/Contract_Management_Framework_Diagram.png" style="width: 500px;height: auto;margin-right: 32px;margin-top: 3px;margin-bottom: 6px;margin-left: 9px;padding-left: 0px;padding-right: 22px;">
+                    <div class="d-flex d-xxl-flex flex-column justify-content-center align-items-center align-items-sm-center align-items-md-center align-items-xl-center justify-content-xxl-center align-items-xxl-center"><img class="img-fluid" src="/assets/img/projects/Contract_Management_Framework_Diagram.png" style="width: 500px;height: auto;margin-right: 32px;margin-top: 3px;margin-bottom: 6px;margin-left: 9px;padding-left: 0px;padding-right: 22px;" alt="Contract Mgmt Framework Image">
                         <h2 style="font-size: 24px;margin-top: 18px;text-align: center;font-weight: bold;"><span style="font-weight: normal !important; color: rgb(37, 37, 37);">The principles that have guided my contract management career</span></h2>
                     </div>
                 </div>
                 <section class="card-section-imagia">
-                    <h1><strong>Contract Management</strong></h1>
+                    <h1 id="contract-management-projects"><strong>Contract Management</strong></h1>
                     <h1 style="margin-top: -15px;"><strong>Project's</strong></h1>
                     <h2></h2>
                     <div class="container">
@@ -94,20 +93,20 @@
                                 <div class="card-container-imagia">
                                     <div class="card-imagia">
                                         <div class="front-imagia">
-                                            <div class="cover-imagia"><img alt="" src="https://unsplash.it/720/500?image=1067"></div>
-                                            <div class="user-imagia"><img class="img-circle" alt="" src="/assets/img/projects/NWP%20Logo.webp" style="padding-top: 0px;"></div>
+                                            <div class="cover-imagia"><img alt="Header Image" src="https://unsplash.it/720/500?image=1067"></div>
+                                            <div class="user-imagia"><img class="img-circle" alt="NWP Co Logo Image" src="/assets/img/projects/NWP%20Logo.webp" style="padding-top: 0px;"></div>
                                             <div class="content-imagia">
-                                                <h3 class="name-imagia"><a href="#"><strong>Northwestern Pacific&nbsp;Co.&nbsp;</strong></a><br><a href="#"><strong>Railroad Freight Operations</strong></a><br></h3>
-                                                <p class="subtitle-imagia">Project and Contracts Manager<br>2011 - 2015</p>
-                                                <p class="text-center"><em>Northern California<br>From Marin County to Port of Humboldt<br></em></p>
+                                                <h3 class="name-imagia frontheading-imagia"><a href="#"><strong>Northwestern Pacific Railroad Co.&nbsp;</strong></a><br><a href="#"><strong>Freight Operations</strong></a><br></h3>
+                                                <p class="subtitle-imagia" style="font-size: 18px;">Project and Contracts Manager<br>2011 - 2015</p>
+                                                <p class="text-center paragraph-imagia"><em>Northern California<br>From Marin County to Port of Humboldt<br></em></p>
                                             </div>
                                             <div class="footer-imagia"><span><i class="fa fa-plus"></i> More info</span></div>
                                         </div>
                                         <div class="back-imagia">
                                             <div class="content-imagia content-back-imagia">
                                                 <div>
-                                                    <h3 class="text-center">Description</h3>
-                                                    <p class="text-center">The Northwestern Pacific Railroad is a regional short-line railroad utilizing a 62 mi stretch of the 271 mile mainline.&nbsp;<span style="color: rgb(44, 47, 52);">NWPCo, Inc. began operations over the section of track between the cities of Lombard and Windsor. They haul grain for dairy and poultry farms in Sonoma County,&nbsp; and lumber from Windsor and Schellville. At Lombard, the railroad exchanges freight carloads with the California Northern Railroad.</span></p>
+                                                    <h3 class="text-center backheading-imagia">Description</h3>
+                                                    <p class="text-center backparagraph-imagia">The Northwestern Pacific Railroad is a regional short-line railroad utilizing a 80+ mi stretch of the 271 mile mainline.&nbsp;&nbsp;<span style="color: rgb(44, 47, 52);">N.W.P. Co, Inc. began operations over the section of track between the cities of Sonoma, CA and Windsor, CA. They haul grain for dairy and poultry farms in Sonoma County,&nbsp; lumber, wine and various other products. At Lombard, the railroad exchanges carloads with California Northern Railroad (</span>CFNR)<span style="color: rgb(44, 47, 52);">.</span></p>
                                                 </div>
                                             </div>
                                             <div class="footer-imagia"></div>
@@ -120,19 +119,19 @@
                                     <div class="card-imagia">
                                         <div class="front-imagia">
                                             <div class="cover-imagia cover-gradient"></div>
-                                            <div class="user-imagia"><img class="img-fluid img-circle" alt="" src="/assets/img/projects/Sonoma%20Media%20Investments%20Logo.jpeg" style="width: 110px;padding-top: 7px;padding-right: 0px;margin-left: 4px;"></div>
+                                            <div class="user-imagia"><img class="img-fluid img-circle" alt="Sonoma Media Logo Image" src="/assets/img/projects/Sonoma%20Media%20Investments%20Logo.jpeg" style="width: 110px;padding-top: 7px;padding-right: 0px;margin-left: 4px;"></div>
                                             <div class="content-imagia">
                                                 <h3 class="name-imagia"><a href="#"><strong>Sonoma Media Investments</strong></a><br><a href="#"><strong>Regional Newspaper Acquisition</strong></a></h3>
-                                                <p class="subtitle-imagia">Contracts Manager<br>2010 - 2012</p>
-                                                <p class="text-center"><em>Sonoma County &amp; Marin County, California</em></p>
+                                                <p class="subtitle-imagia" style="font-size: 18px;">Contracts Manager<br>2010 - 2012</p>
+                                                <p class="text-center paragraph-imagia"><em>Sonoma County &amp; Marin County, California</em></p>
                                             </div>
                                             <div class="footer-imagia"><span><i class="fa fa-plus"></i> More info</span></div>
                                         </div>
                                         <div class="back-imagia">
                                             <div class="content-imagia content-back-imagia">
                                                 <div>
-                                                    <h3 class="text-center">Description</h3>
-                                                    <p class="text-center">Sonoma Media Investments was formed in late 2011 to buy the Sonoma Index-Tribune and Sonoma Magazine. In November 2012, the company purchased the Press Democrat Media Group, which includes The Press Democrat, the Petaluma Argus-Courier, the North Bay Business Journal and all affiliated websites and businesses.<br></p>
+                                                    <h3 class="text-center backheading-imagia">Description</h3>
+                                                    <p class="text-center backparagraph-imagia">Sonoma Media Investments was formed in late 2011 to buy the Sonoma Index-Tribune and Sonoma Magazine. In November 2012, the company purchased the Press Democrat Media Group, which includes The Press Democrat, the Petaluma Argus-Courier, the North Bay Business Journal and all affiliated websites and businesses.<br></p>
                                                 </div>
                                             </div>
                                             <div class="footer-imagia"></div>
@@ -144,20 +143,20 @@
                                 <div class="card-container-imagia">
                                     <div class="card-imagia">
                                         <div class="front-imagia">
-                                            <div class="cover-imagia"><img alt="" src="https://unsplash.it/720/500?image=1067"></div>
-                                            <div class="user-imagia"><img class="img-circle" alt="" src="/assets/img/projects/Sonoma%20Clean%20Power.png" style="padding-top: 0px;"></div>
+                                            <div class="cover-imagia"><img alt="Background Image" src="https://unsplash.it/720/500?image=1067"></div>
+                                            <div class="user-imagia"><img class="img-circle" alt="Sonoma Clean Power Logo Image" src="/assets/img/projects/Sonoma%20Clean%20Power.png" style="padding-top: 0px;"></div>
                                             <div class="content-imagia">
                                                 <h3 class="name-imagia"><a href="#"><strong>Sonoma Clean Power</strong></a><br><a href="#"><strong>Community Choice Aggregation</strong></a></h3>
-                                                <p class="subtitle-imagia">Project and Contracts Manager<br>2012 - 2014</p>
-                                                <p class="text-center"><em>Sonoma County, California</em></p>
+                                                <p class="subtitle-imagia" style="font-size: 18px;">Project and Contracts Manager<br>2012 - 2014</p>
+                                                <p class="text-center paragraph-imagia"><em>Sonoma County, California</em></p>
                                             </div>
                                             <div class="footer-imagia"><span><i class="fa fa-plus"></i> More info</span></div>
                                         </div>
                                         <div class="back-imagia">
                                             <div class="content-imagia content-back-imagia">
                                                 <div>
-                                                    <h3 class="text-center">Description</h3>
-                                                    <p class="text-center"><span style="color: rgb(37, 37, 37);">Sonoma Clean Power is a community choice aggregator (CCA), one of the first communities to establish a class of public energy providers that were created by the California Legislature in the aftermath of the energy crisis in the early 2000s and allowed local communities to create their own alternative to sourcing clean energy. They provide energy to over 250,000 residents of Sonoma and Mendocino counties. Additionally, they are providing an&nbsp;option for 100% local renewable energy, the first of its kind in California.</span><br></p>
+                                                    <h3 class="text-center backheading-imagia">Description</h3>
+                                                    <p class="text-center backparagraph-imagia">Sonoma Clean Power is a community choice aggregator (CCA), one of the first communities to establish a class of public energy providers established by the California Legislature in the aftermath of the early 2000s energy crisis, allowing local communities to create their own alternative to sourcing clean energy. They serve over 250,000 people in Sonoma and Mendocino counties, and&nbsp;the first in California to offer a 100% local renewable energy option.<br></p>
                                                 </div>
                                             </div>
                                             <div class="footer-imagia"></div>
@@ -166,27 +165,27 @@
                                 </div>
                             </div>
                         </div>
-                        <h1 class="text-center" style="margin-right: 11px;margin-left: 11px;font-size: 48px;margin-bottom: 12px;margin-top: 28px;"><strong>Programming</strong></h1>
+                        <h1 class="text-center" id="programming-projects" style="margin-right: 11px;margin-left: 11px;font-size: 48px;margin-bottom: 12px;margin-top: 28px;"><strong>Programming</strong></h1>
                         <h1 class="text-center" style="margin-right: 11px;margin-left: 11px;font-size: 48px;margin-bottom: 12px;margin-top: -15px;"><strong>Project's</strong><br></h1>
                         <div class="row">
                             <div class="col-sm-6 col-md-4">
                                 <div class="card-container-imagia">
                                     <div class="card-imagia">
                                         <div class="front-imagia">
-                                            <div class="cover-imagia"><img alt="" src="https://unsplash.it/720/500?image=1067"></div>
-                                            <div class="user-imagia"><img class="img-circle" alt="" src="/assets/img/tech/HTML5-CSS3-JS-BootStrap.png" style="padding-top: 0px;"></div>
+                                            <div class="cover-imagia"><img alt="Background Image" src="https://unsplash.it/720/500?image=1067"></div>
+                                            <div class="user-imagia"><img class="img-circle" alt="HTML CSS JS  Logo Image" src="/assets/img/tech/HTML5-CSS3-JS-BootStrap.png" style="padding-top: 0px;"></div>
                                             <div class="content-imagia">
-                                                <h3 class="name-imagia"><a href="#"><strong>HTML5, CSS3, JS &amp; Bootstrap</strong></a><br></h3>
-                                                <p class="subtitle-imagia">2022 - current</p>
-                                                <p class="text-center"><em>Expanding my skills with HTML5, CSS3, and JavaScript to provide&nbsp;more services to future employers.<br></em></p>
+                                                <h3 class="name-imagia"><a href="#"><strong>HTML5, CSS3,&nbsp;</strong></a><strong>&amp; JavaScript</strong><br></h3>
+                                                <p class="subtitle-imagia" style="font-size: 18px;">2022 - current</p>
+                                                <p class="text-center paragraph-imagia"><em>Expanding my skills with HTML5, CSS3, and JavaScript to provide&nbsp;more services to future employers.<br></em></p>
                                             </div>
                                             <div class="footer-imagia"><span><i class="fa fa-plus"></i> More info</span></div>
                                         </div>
                                         <div class="back-imagia">
                                             <div class="content-imagia content-back-imagia">
                                                 <div>
-                                                    <h3 class="text-center">Description</h3>
-                                                    <p class="text-center"><span style="color: rgb(37, 37, 37);">HTML, CSS, and Javascript are the foundation of front-end developers and the pillars of websites that users directly interact with every day. HTML provides the basic structure of sites, which is enhanced and modified by other technologies like CSS and JavaScript. CSS is used to control presentation, formatting, and layout. JavaScript is used to control the behavior of different elements.</span><br></p>
+                                                    <h3 class="text-center backheading-imagia">Description</h3>
+                                                    <p class="text-center backparagraph-imagia"><span style="color: rgb(37, 37, 37);">HTML, CSS, and Javascript are the foundation of front-end developers and the pillars of websites that users directly interact with every day. HTML provides the basic structure of sites, which is enhanced and modified by other technologies like CSS and JavaScript. CSS is used to control presentation, formatting, and layout. JavaScript is used to control the behavior of different elements.</span><br></p>
                                                 </div>
                                             </div>
                                             <div class="footer-imagia"></div>
@@ -199,19 +198,19 @@
                                     <div class="card-imagia">
                                         <div class="front-imagia">
                                             <div class="cover-imagia cover-gradient"></div>
-                                            <div class="user-imagia"><img class="img-fluid img-circle" alt="" src="/assets/img/tech/python-logo.png" width="120" height="128" style="padding-top: 5px;"></div>
+                                            <div class="user-imagia"><img class="img-fluid img-circle" alt="Python Logo Image" src="/assets/img/tech/python-logo.png" width="120" height="128" style="padding-top: 5px;"></div>
                                             <div class="content-imagia">
                                                 <h3 class="name-imagia"><strong>Python Programming Language</strong></h3>
-                                                <p class="subtitle-imagia">2022 - Current</p>
-                                                <p class="text-center"><em><em>Expanding my&nbsp;</em>task automation, data analysis, and data visualization&nbsp;<em>skills with Python&nbsp;to provide&nbsp;more services to future employers.</em></em></p>
+                                                <p class="subtitle-imagia" style="font-size: 18px;">2022 - Current</p>
+                                                <p class="text-center paragraph-imagia"><em><em>Expanding my&nbsp;</em>task automation, data analysis, and data visualization&nbsp;<em>skills with Python&nbsp;to provide&nbsp;more services to future employers.</em></em></p>
                                             </div>
                                             <div class="footer-imagia"><span><i class="fa fa-plus"></i> More info</span></div>
                                         </div>
                                         <div class="back-imagia">
                                             <div class="content-imagia content-back-imagia">
                                                 <div>
-                                                    <h3 class="text-center">Description</h3>
-                                                    <p class="text-center">Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured, object-oriented and functional programming.<br></p>
+                                                    <h3 class="text-center backheading-imagia">Description</h3>
+                                                    <p class="text-center backparagraph-imagia">Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured, object-oriented and functional programming.<br></p>
                                                 </div>
                                             </div>
                                             <div class="footer-imagia"></div>
@@ -223,20 +222,20 @@
                                 <div class="card-container-imagia">
                                     <div class="card-imagia">
                                         <div class="front-imagia">
-                                            <div class="cover-imagia"><img alt="" src="https://unsplash.it/720/500?image=1067"></div>
-                                            <div class="user-imagia"><img class="img-circle" alt="" src="/assets/img/tech/bootstrap5-logo.png" style="width: 160px;height: auto;margin-right: -13px;padding-right: 2px;margin-left: -19px;padding-top: 0px;margin-top: -4px;"></div>
+                                            <div class="cover-imagia"><img alt="Background Image" src="https://unsplash.it/720/500?image=1067"></div>
+                                            <div class="user-imagia"><img class="img-circle" alt="Bootstrap 5  Logo Image" src="/assets/img/tech/bootstrap5-logo.png" style="width: 160px;height: auto;margin-right: -13px;padding-right: 2px;margin-left: -19px;padding-top: 0px;margin-top: -4px;"></div>
                                             <div class="content-imagia">
                                                 <h3 class="name-imagia"><strong>Bootstrap 5</strong></h3>
-                                                <p class="subtitle-imagia">2022 - Current</p>
-                                                <p class="text-center"><em><em>Expanding my skills with Bootstrap 5 to provide&nbsp;more services to future employers.</em></em></p>
+                                                <p class="subtitle-imagia" style="font-size: 18px;">2022 - Current</p>
+                                                <p class="text-center paragraph-imagia"><em><em>Expanding my skills with Bootstrap 5 to provide&nbsp;more services to future employers.</em></em></p>
                                             </div>
                                             <div class="footer-imagia"><span><i class="fa fa-plus"></i> More info</span></div>
                                         </div>
                                         <div class="back-imagia">
                                             <div class="content-imagia content-back-imagia">
                                                 <div>
-                                                    <h3 class="text-center">Description</h3>
-                                                    <p class="text-center">&nbsp;Bootstrap is a free and open-source CSS framework directed at responsive web development. It contains HTML, CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.<br></p>
+                                                    <h3 class="text-center backheading-imagia">Description</h3>
+                                                    <p class="text-center backparagraph-imagia">&nbsp;Bootstrap is a free and open-source CSS framework directed at responsive web development. It contains HTML, CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.<br></p>
                                                 </div>
                                             </div>
                                             <div class="footer-imagia"></div>
@@ -252,7 +251,7 @@
                 <div class="container">
                     <section data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" data-aos-once="true" class="py-4 py-xl-5">
                         <div class="container">
-                            <div class="text-white bg-primary border rounded-pill border-0 border-primary d-flex flex-column justify-content-between flex-lg-row justify-content-xxl-center p-4 p-md-5" style="background: linear-gradient(91deg, var(--bs-indigo) 13%, var(--bs-blue) 50%, var(--bs-primary) 99%);">
+                            <div class="text-white bg-primary border rounded-pill border-0 border-primary d-flex flex-column justify-content-between flex-lg-row justify-content-lg-center justify-content-xxl-center p-4 p-md-5" id="color-generator-project" style="background: linear-gradient(91deg, var(--bs-indigo) 13%, var(--bs-blue) 50%, var(--bs-primary) 99%);">
                                 <div class="pb-2 pb-lg-1">
                                     <h2 class="fw-bold text-center mb-2">Color Generator</h2>
                                     <h4 class="fw-bold text-center mb-2"><span style="font-weight: normal !important;">in CSS &amp; JavaScript</span></h4>
@@ -260,8 +259,8 @@
                             </div>
                         </div>
                         <div class="accordion" role="tablist" id="accordion-1">
-                            <div class="accordion-item" style="border-width: 0px;">
-                                <h2 class="accordion-header d-xxl-flex" role="tab" style="margin-right: 30%;margin-left: 30%;"><button class="accordion-button collapsed text-white border rounded-pill d-xxl-flex" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-1" aria-expanded="false" aria-controls="accordion-1 .item-1" style="margin-top: 10px;font-size: 24px;font-weight: bold;background: var(--bs-accordion-active-color);color: var(--bs-accordion-bg);">View Project</button></h2>
+                            <div class="accordion-item d-flex justify-content-center" style="border-width: 0px;">
+                                <h2 class="accordion-header d-xxl-flex" role="tab" style="margin-right: 30%;margin-left: 30%;"><button class="accordion-button collapsed text-white border rounded-pill d-xxl-flex" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-1" aria-expanded="false" aria-controls="accordion-1 .item-1" style="margin-top: 10px;font-size: 24px;font-weight: bold;background: var(--bs-accordion-active-color);color: var(--bs-accordion-bg);width: 323px;height: 62px;">View Project</button></h2>
                                 <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#accordion-1">
                                     <div class="accordion-body"><div class="color-generator">
     <br>
@@ -274,7 +273,7 @@
                     </section>
                     <section data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" data-aos-once="true" class="py-4 py-xl-5">
                         <div class="container">
-                            <div class="text-white bg-primary border rounded-pill border-0 border-primary d-flex flex-column justify-content-between flex-lg-row justify-content-xxl-center p-4 p-md-5" style="background: linear-gradient(91deg, var(--bs-indigo) 13%, var(--bs-blue) 50%, var(--bs-primary) 99%);">
+                            <div class="text-white bg-primary border rounded-pill border-0 border-primary d-flex flex-column justify-content-between flex-lg-row justify-content-lg-center justify-content-xxl-center p-4 p-md-5" id="fluid-font-project" style="background: linear-gradient(91deg, var(--bs-indigo) 13%, var(--bs-blue) 50%, var(--bs-primary) 99%);">
                                 <div class="pb-2 pb-lg-1">
                                     <h2 class="fw-bold text-center mb-2">Fluid Font</h2>
                                     <h4 class="fw-bold text-center mb-2"><span style="font-weight: normal !important;">Fluid Font in CSS &amp; JavaScript</span></h4>
@@ -282,8 +281,8 @@
                             </div>
                         </div>
                         <div class="accordion" role="tablist" id="accordion-2">
-                            <div class="accordion-item" style="border-width: 0px;">
-                                <h2 class="accordion-header d-xxl-flex" role="tab" style="margin-right: 30%;margin-left: 30%;"><button class="accordion-button collapsed text-center border rounded-pill d-xxl-flex" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-2 .item-1" aria-expanded="false" aria-controls="accordion-2 .item-1" style="margin-top: 10px;font-size: 24px;font-weight: bold;background: var(--bs-accordion-active-color);color: var(--bs-accordion-bg);">View Project</button></h2>
+                            <div class="accordion-item d-flex justify-content-center" style="border-width: 0px;">
+                                <h2 class="accordion-header d-xxl-flex" role="tab" style="margin-right: 30%;margin-left: 30%;"><button class="accordion-button collapsed text-center border rounded-pill d-xxl-flex" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-2 .item-1" aria-expanded="false" aria-controls="accordion-2 .item-1" style="margin-top: 10px;font-size: 24px;font-weight: bold;background: var(--bs-accordion-active-color);color: var(--bs-accordion-bg);width: 323px;height: 62px;">View Project</button></h2>
                                 <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#accordion-2">
                                     <div class="accordion-body"><div class="fluid-font">
     <br>
@@ -296,16 +295,16 @@
                     </section>
                     <section data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" data-aos-once="true" class="py-4 py-xl-5">
                         <div class="container">
-                            <div class="text-white bg-primary border rounded-pill border-0 border-primary d-flex flex-column justify-content-between flex-lg-row justify-content-xxl-center p-4 p-md-5" style="background: linear-gradient(91deg, var(--bs-indigo) 13%, var(--bs-blue) 50%, var(--bs-primary) 99%);">
+                            <div class="text-white bg-primary border rounded-pill border-0 border-primary d-flex flex-column justify-content-between flex-lg-row justify-content-lg-center justify-content-xxl-center p-4 p-md-5" id="basic-web-scraper-project" style="background: linear-gradient(91deg, var(--bs-indigo) 13%, var(--bs-blue) 50%, var(--bs-primary) 99%);">
                                 <div class="pb-2 pb-lg-1">
                                     <h2 class="fw-bold text-center mb-2">Basic Web Scraper</h2>
                                     <h4 class="fw-bold text-center mb-2"><span style="font-weight: normal !important;">in Python 3</span></h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion" role="tablist" id="accordion-3">
-                            <div class="accordion-item" style="border-width: 0px;">
-                                <h2 class="accordion-header d-xxl-flex" role="tab" style="margin-right: 30%;margin-left: 30%;"><button class="accordion-button collapsed text-center border rounded-pill d-xxl-flex" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-3 .item-1" aria-expanded="false" aria-controls="accordion-3 .item-1" style="margin-top: 10px;font-size: 24px;font-weight: bold;background: var(--bs-accordion-active-color);color: var(--bs-accordion-bg);">View Project</button></h2>
+                        <div class="accordion d-flex justify-content-center" role="tablist" id="accordion-3">
+                            <div class="accordion-item d-flex justify-content-center" style="border-width: 0px;width: 323px;height: 72px;">
+                                <h2 class="accordion-header d-xxl-flex" role="tab" style="margin-right: 30%;margin-left: 30%;"><button class="accordion-button collapsed text-center border rounded-pill d-xxl-flex" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-3 .item-1" aria-expanded="false" aria-controls="accordion-3 .item-1" style="margin-top: 10px;font-size: 24px;font-weight: bold;background: var(--bs-accordion-active-color);color: var(--bs-accordion-bg);width: 323px;height: 62;">View Project</button></h2>
                                 <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#accordion-3">
                                     <div class="accordion-body"><div class="web-scraper">
     <br>
@@ -318,16 +317,16 @@
                     </section>
                     <section data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" data-aos-once="true" class="py-4 py-xl-5">
                         <div class="container">
-                            <div class="text-white bg-primary border rounded-pill border-0 border-primary d-flex flex-column justify-content-between flex-lg-row justify-content-xxl-center p-4 p-md-5" style="background: linear-gradient(91deg, var(--bs-indigo) 13%, var(--bs-blue) 50%, var(--bs-primary) 99%);">
+                            <div class="text-white bg-primary border rounded-pill border-0 border-primary d-flex flex-column justify-content-between flex-lg-row justify-content-lg-center justify-content-xxl-center p-4 p-md-5" id="port-scanner-project" style="background: linear-gradient(91deg, var(--bs-indigo) 13%, var(--bs-blue) 50%, var(--bs-primary) 99%);">
                                 <div class="pb-2 pb-lg-1">
                                     <h2 class="fw-bold text-center mb-2">Port Scanner</h2>
                                     <h4 class="fw-bold text-center mb-2"><span style="font-weight: normal !important;">in Python 3</span></h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion" role="tablist" id="accordion-4">
-                            <div class="accordion-item" style="border-width: 0px;">
-                                <h2 class="accordion-header d-xxl-flex" role="tab" style="margin-right: 30%;margin-left: 30%;"><button class="accordion-button collapsed text-center border rounded-pill d-xxl-flex" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-4 .item-1" aria-expanded="false" aria-controls="accordion-4 .item-1" style="margin-top: 10px;font-size: 24px;font-weight: bold;background: var(--bs-accordion-active-color);color: var(--bs-accordion-bg);">View Project</button></h2>
+                        <div class="accordion d-flex justify-content-center" role="tablist" id="accordion-4">
+                            <div class="accordion-item d-flex justify-content-center" style="border-width: 0px;">
+                                <h2 class="accordion-header d-xxl-flex" role="tab" style="margin-right: 30%;margin-left: 30%;width: 374px;height: 62px;"><button class="accordion-button collapsed text-center border rounded-pill d-xxl-flex" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-4 .item-1" aria-expanded="false" aria-controls="accordion-4 .item-1" style="margin-top: 10px;font-size: 24px;font-weight: bold;background: var(--bs-accordion-active-color);color: var(--bs-accordion-bg);width: 323px;height: 62px;">View Project</button></h2>
                                 <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#accordion-4">
                                     <div class="accordion-body"><div class="port-scanner">
     <br>
@@ -340,15 +339,15 @@
                     </section>
                     <section data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" data-aos-once="true" class="py-4 py-xl-5">
                         <div class="container">
-                            <div class="text-white bg-primary border rounded-pill border-0 border-primary d-flex flex-column justify-content-between flex-lg-row justify-content-xxl-center p-4 p-md-5" style="background: linear-gradient(91deg, var(--bs-indigo) 13%, var(--bs-blue) 50%, var(--bs-primary) 99%);">
+                            <div class="text-white bg-primary border rounded-pill border-0 border-primary d-flex flex-column justify-content-between flex-lg-row justify-content-lg-center justify-content-xxl-center p-4 p-md-5" id="additional-web-design-project" style="background: linear-gradient(91deg, var(--bs-indigo) 13%, var(--bs-blue) 50%, var(--bs-primary) 99%);">
                                 <div class="pb-2 pb-lg-1">
                                     <h2 class="fw-bold text-center mb-2">Front End Web Design</h2>
                                     <h4 class="fw-bold text-center mb-2"><span style="font-weight: normal !important;">in HTML, CSS and JavaScript</span></h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="dropdown d-xxl-flex justify-content-xxl-center"><button class="btn btn-primary btn-lg" aria-expanded="false" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="dropdown-btn" type="button" style="width: 517px;height: 62px;margin-top: 10px;margin-right: 1px;margin-bottom: 1px;margin-left: 5px;font-weight: bold;font-size: 24px;text-align: left;" aria-controls="accordion-4.item-1">View Project's<i class="icon-arrow-down float-end" id="arrow-dropdown-btn" style="font-size: 18px;color: black;width: 20px;transform: translateX(0px) translateY(8px);"></i></button>
-                            <div class="dropdown-menu flex-column" style="transform: translateX(455px);width: 450px;border-style: hidden;border-color: rgba(33,37,41,0);"><a class="dropdown-item border rounded-pill" href="https://codesandbox.io/embed/confident-cannon-z5jg8j?autoresize=1&amp;fontsize=14&amp;hidenavigation=1&amp;module=%2Fstyles.css&amp;theme=light" target="_blank" style="font-size: 22px;font-weight: bold;text-align: center;background: linear-gradient(90deg, var(--bs-purple), var(--bs-blue) 22%, var(--bs-link-color));color: var(--bs-dropdown-bg);margin-top: 1px;margin-right: 1px;margin-bottom: 1px;margin-left: 1px;">Picasso Painting with CSS</a><a class="dropdown-item border rounded-pill" href="https://codesandbox.io/embed/mystifying-sound-ytp1is?autoresize=1&amp;fontsize=14&amp;hidenavigation=1&amp;module=%2Fstyles.css&amp;theme=light" target="_blank" style="font-size: 22px;font-weight: bold;text-align: center;background: linear-gradient(90deg, var(--bs-purple), var(--bs-blue) 22%, var(--bs-link-color));color: var(--bs-dropdown-bg);margin-top: 1px;margin-right: 1px;margin-bottom: 1px;margin-left: 1px;"><strong><span style="color: var(--bs-dropdown-bg);">City Skyline with CSS Variables</span></strong></a><a class="dropdown-item border rounded-pill" href="https://codesandbox.io/embed/bold-bhabha-bgy2z4?autoresize=1&amp;fontsize=14&amp;hidenavigation=1&amp;module=%2Fstyles.css&amp;theme=light" target="_blank" style="font-size: 22px;font-weight: bold;text-align: center;background: linear-gradient(90deg, var(--bs-purple), var(--bs-blue) 22%, var(--bs-link-color));color: var(--bs-dropdown-bg);margin-top: 1px;margin-right: 1px;margin-bottom: 1px;margin-left: 1px;">Piano with CSS</a><a class="dropdown-item border rounded-pill" href="https://codesandbox.io/embed/technical-documentation-page-lks2s1?autoresize=1&amp;fontsize=14&amp;hidenavigation=1&amp;theme=light" target="_blank" style="font-size: 22px;font-weight: bold;text-align: center;background: linear-gradient(90deg, var(--bs-purple), var(--bs-blue) 22%, var(--bs-link-color));color: var(--bs-dropdown-bg);margin-top: 1px;margin-right: 1px;margin-bottom: 1px;margin-left: 1px;">Technical Documentation Design</a></div>
+                        <div class="dropdown d-flex d-xxl-flex justify-content-center justify-content-xxl-center"><button class="btn btn-primary btn-lg d-xxl-flex justify-content-start justify-content-xxl-start" aria-expanded="false" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="dropdown-btn" type="button" style="margin-top: 10px;margin-right: 1px;margin-bottom: 1px;margin-left: 5px;font-weight: bold;font-size: 24px;text-align: left;display: flex;width: 374px;height: 62px;" aria-controls="accordion-4.item-1">View Project's</button>
+                            <div class="dropdown-menu flex-column align-items-center flex-nowrap" id="frontend-drpdwn-menu" style="border-style: hidden;border-color: rgba(33,37,41,0);background: rgba(255,255,255,0);position: absolute;width: 340px;"><a class="dropdown-item border rounded-pill d-flex d-xxl-flex justify-content-center justify-content-xxl-center" href="https://codesandbox.io/embed/confident-cannon-z5jg8j?autoresize=1&amp;fontsize=14&amp;hidenavigation=1&amp;module=%2Fstyles.css&amp;theme=light" target="_blank" style="font-size: 22px;font-weight: bold;text-align: center;background: linear-gradient(90deg, var(--bs-purple), var(--bs-blue) 22%, var(--bs-link-color));color: var(--bs-dropdown-bg);margin-top: 1px;margin-right: 1px;margin-bottom: 1px;margin-left: 1px;display: inline-flex;">Picasso Painting with CSS</a><a class="dropdown-item border rounded-pill d-flex d-xxl-flex justify-content-center justify-content-xxl-center" href="https://codesandbox.io/embed/mystifying-sound-ytp1is?autoresize=1&amp;fontsize=14&amp;hidenavigation=1&amp;module=%2Fstyles.css&amp;theme=light" target="_blank" style="font-size: 22px;font-weight: bold;text-align: center;background: linear-gradient(90deg, var(--bs-purple), var(--bs-blue) 22%, var(--bs-link-color));color: var(--bs-dropdown-bg);margin-top: 1px;margin-right: 1px;margin-bottom: 1px;margin-left: 1px;display: inline-flex;"><strong><span style="color: var(--bs-dropdown-bg);">City Skyline with CSS Variables</span></strong></a><a class="dropdown-item border rounded-pill d-flex d-xxl-flex justify-content-center justify-content-xxl-center" href="https://codesandbox.io/embed/bold-bhabha-bgy2z4?autoresize=1&amp;fontsize=14&amp;hidenavigation=1&amp;module=%2Fstyles.css&amp;theme=light" target="_blank" style="font-size: 22px;font-weight: bold;text-align: center;background: linear-gradient(90deg, var(--bs-purple), var(--bs-blue) 22%, var(--bs-link-color));color: var(--bs-dropdown-bg);margin-top: 1px;margin-right: 1px;margin-bottom: 1px;margin-left: 1px;display: inline-flex;">Piano with CSS</a><a class="dropdown-item border rounded-pill d-flex d-xxl-flex justify-content-center justify-content-xxl-center" href="https://codesandbox.io/embed/technical-documentation-page-lks2s1?autoresize=1&amp;fontsize=14&amp;hidenavigation=1&amp;theme=light" target="_blank" style="font-size: 22px;font-weight: bold;text-align: center;background: linear-gradient(90deg, var(--bs-purple), var(--bs-blue) 22%, var(--bs-link-color));color: var(--bs-dropdown-bg);margin-top: 1px;margin-right: 1px;margin-bottom: 1px;margin-left: 1px;display: inline-flex;">Technical Documentation Design</a></div>
                         </div>
                     </section>
                 </div>

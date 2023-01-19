@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/Lato.css">
     <link rel="stylesheet" href="/assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="/assets/css/aos.min.css">
+    <link rel="stylesheet" href="/assets/css/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
     <link rel="stylesheet" href="/assets/css/Icon-Centered-Between-Lines.css">
@@ -36,7 +38,7 @@
 <body>
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
         <div class="container">
-            <div style="background: url(&quot;/assets/img/logos/BrentGoodmanLogoWhite.webp&quot;) center / contain no-repeat, var(--bs-navbar-disabled-color);width: 80px;height: 80px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;padding-left: 1px;margin-right: 10px;"></div><a class="navbar-brand logo" href="#">Brent Goodman</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div id="brent-goodman-logo" style="background: url(&quot;/assets/img/logos/BrentGoodmanLogoWhite.webp&quot;) center / contain no-repeat, var(--bs-navbar-disabled-color);width: 80px;height: 80px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;padding-left: 1px;margin-right: 10px;"></div><a class="navbar-brand logo" id="brand-name" href="/index.html">Brent Goodman</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
@@ -55,7 +57,7 @@
                     <h2>REference's</h2>
                 </div>
                 <div class="row">
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 col-lg-4 pulse animated">
                         <div class="project-card-no-image">
                             <h3 class="text-center d-xxl-flex justify-content-xxl-center" style="font-size: 24px;font-weight: bold;">Melissa Greek<br></h3>
                             <div class="row text-center">
@@ -68,11 +70,11 @@
                             <h4 class="text-center d-xxl-flex justify-content-xxl-center" style="margin-bottom: 3px;margin-top: 4px;font-size: 20px;text-align: center;">(760) 413-5531<br></h4>
                             <h4 class="text-center d-xxl-flex justify-content-xxl-center" style="margin-bottom: 3px;margin-top: 4px;font-size: 20px;text-align: center;">mgreek@jelmbergteam.com<br><br></h4>
                             <h4 class="text-center d-xxl-flex justify-content-xxl-center" style="margin-bottom: 3px;margin-top: 4px;font-size: 20px;text-align: center;">39575 Washington St. <br>Suite 105 <br>Palm Desert, CA 92211<br><br></h4>
-                            <h4 class="text-center d-xxl-flex justify-content-xxl-center" style="margin-bottom: 20px;font-size: 20px;text-align: center;">Melissa was my department supervisor while I worked as a contract manager for Jelmberg Team, Inc., from May 2022 through January 2023.<br><br></h4><a class="btn btn-outline-primary btn-sm text-center d-flex d-xxl-flex justify-content-center justify-content-xxl-center" role="button" href="#modal-1" style="font-size: 20px;" data-bs-toggle="modal">See Recommendation</a>
+                            <h4 class="text-center d-xxl-flex justify-content-xxl-center" style="margin-bottom: 20px;font-size: 20px;text-align: center;">Melissa was my department supervisor while I worked as a contract manager for Jelmberg Team, Inc., from May 2022 through January 2023.<br><br></h4><a class="btn btn-outline-primary btn-sm text-center d-flex d-xxl-flex justify-content-center justify-content-xxl-center" role="button" data-aos="zoom-in" data-aos-delay="250" data-aos-once="true" href="#modal-1" style="font-size: 20px;" data-bs-toggle="modal">See Recommendation</a>
                             <div class="tags"></div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 col-lg-4 pulse animated">
                         <div class="project-card-no-image">
                             <h3 class="text-center d-xxl-flex justify-content-xxl-center" style="font-size: 24px;font-weight: bold;">Britt Esser<br></h3>
                             <div class="row text-center">
@@ -85,11 +87,11 @@
                             <h4 class="text-center d-xxl-flex justify-content-xxl-center" style="margin-bottom: 3px;margin-top: 4px;font-size: 20px;text-align: center;">(415) 758-1874<br></h4>
                             <h4 class="text-center d-xxl-flex justify-content-xxl-center" style="margin-bottom: 3px;margin-top: 4px;font-size: 20px;text-align: center;">cbesser@gmail.com<br><br></h4>
                             <h4 class="text-center d-xxl-flex justify-content-xxl-center" style="margin-bottom: 3px;margin-top: 4px;font-size: 20px;text-align: center;">11000 Wilshire Blvd. <br>Suite 241426 <br>Los Angeles, CA 90024<br><br></h4>
-                            <h4 class="text-center d-xxl-flex justify-content-xxl-center" style="margin-bottom: 20px;font-size: 20px;text-align: center;">Britt has been a professional contact during my time as a commercial contract manager at Alliance Ventures, Inc., Modern Virtue TC, Inc., and Jelmberg Team, Inc. since 2015.<br></h4><a class="btn btn-outline-primary btn-sm text-center d-flex d-xxl-flex justify-content-center justify-content-xxl-center" role="button" href="#modal-2" style="font-size: 20px;" data-bs-toggle="modal">See Recommendation</a>
+                            <h4 class="text-center d-xxl-flex justify-content-xxl-center" style="margin-bottom: 20px;font-size: 20px;text-align: center;">Britt has been a professional contact during my time as a commercial contract manager at Alliance Ventures, Inc., Modern Virtue TC, Inc., and Jelmberg Team, Inc. since 2015.<br></h4><a class="btn btn-outline-primary btn-sm text-center d-flex d-xxl-flex justify-content-center justify-content-xxl-center" role="button" data-aos="zoom-in" data-aos-delay="250" data-aos-once="true" href="#modal-2" style="font-size: 20px;" data-bs-toggle="modal">See Recommendation</a>
                             <div class="tags"></div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 col-lg-4 pulse animated">
                         <div class="project-card-no-image">
                             <h3 class="text-center d-xxl-flex justify-content-xxl-center" style="font-size: 24px;font-weight: bold;">Doug Bosco<br></h3>
                             <div class="row text-center">
@@ -102,7 +104,7 @@
                             <h4 class="text-center d-xxl-flex justify-content-xxl-center" style="margin-bottom: 3px;margin-top: 4px;font-size: 20px;text-align: center;">(707) 696-9345<br></h4>
                             <h4 class="text-center d-xxl-flex justify-content-xxl-center" style="margin-bottom: 3px;margin-top: 4px;font-size: 20px;text-align: center;">dbosco@boscolaw.com<br><br></h4>
                             <h4 class="text-center d-xxl-flex justify-content-xxl-center" style="margin-bottom: 3px;margin-top: 4px;font-size: 20px;text-align: center;">37 Old Courthouse Sq.<br>Santa Rosa, CA 95404<br><br></h4>
-                            <h4 class="text-center d-xxl-flex justify-content-xxl-center" style="margin-bottom: 20px;font-size: 20px;text-align: center;">Britt has been a professional contact during my time as a commercial contract manager at Alliance Ventures, Inc., Modern Virtue TC, Inc., and Jelmberg Team, Inc. since 2015.<br></h4><a class="btn btn-outline-primary btn-sm text-center d-flex d-xxl-flex justify-content-center justify-content-xxl-center" role="button" href="#modal-3" style="font-size: 20px;" data-bs-toggle="modal">See Recommendation</a>
+                            <h4 class="text-center d-xxl-flex justify-content-xxl-center" style="margin-bottom: 20px;font-size: 20px;text-align: center;">Britt has been a professional contact during my time as a commercial contract manager at Alliance Ventures, Inc., Modern Virtue TC, Inc., and Jelmberg Team, Inc. since 2015.<br></h4><a class="btn btn-outline-primary btn-sm text-center d-flex d-xxl-flex justify-content-center justify-content-xxl-center" role="button" data-aos="zoom-in" data-aos-delay="250" data-aos-once="true" href="#modal-3" style="font-size: 20px;" data-bs-toggle="modal">See Recommendation</a>
                             <div class="tags"></div>
                         </div>
                     </div>
@@ -159,6 +161,7 @@
         </div>
     </div>
     <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/assets/js/aos.min.js"></script>
     <script src="/assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
