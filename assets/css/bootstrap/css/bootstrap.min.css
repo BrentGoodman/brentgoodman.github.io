@@ -510,10 +510,6 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
   display: none;
 }
 
-.dropup, .dropend, .dropdown, .dropstart, .dropup-center, .dropdown-center {
-  position: relative;
-}
-
 .dropdown-toggle {
   white-space: nowrap;
 }
@@ -1210,14 +1206,6 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
   flex-direction: column !important;
 }
 
-.flex-nowrap {
-  flex-wrap: nowrap !important;
-}
-
-.justify-content-start {
-  justify-content: flex-start !important;
-}
-
 .justify-content-center {
   justify-content: center !important;
 }
@@ -1386,12 +1374,6 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
 @media (min-width: 1400px) {
   .d-xxl-flex {
     display: flex !important;
-  }
-}
-
-@media (min-width: 1400px) {
-  .justify-content-xxl-start {
-    justify-content: flex-start !important;
   }
 }
 
