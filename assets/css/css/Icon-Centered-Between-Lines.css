@@ -1,0 +1,117 @@
+@media (min-width: 300px) {
+  .line-with-icon-divider {
+    background: inherit;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+  }
+}
+
+.line-span {
+  margin: auto;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  display: block;
+  text-align: center;
+}
+
+.line-span:before, .line-span:after {
+  content: '';
+  width: 200px;
+  transform: translateY( 9px );
+  height: 2px;
+  background: #ccc;
+  position: absolute;
+}
+
+.line-span:before {
+  right: 100%;
+}
+
+.line-span:after {
+  left: 100%;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  #frontend-drpdwn-menu {
+    transform: translateX(90px);
+  }
+}
+
+@media (min-width: 359px) and (max-width: 780px) {
+  .backparagraph-imagia, .content-back-imagia {
+    font-size: 13px;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+  }
+}
+
+@media (min-width: 359px) and (max-width: 780px) {
+  .paragraph-imagia, .subtitle-imagia {
+    font-size: 14px !important;
+    font-style: normal;
+    font-family: 'Lato';
+    margin-bottom: 5px !important;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+  .paragraph-imagia, .subtitle-imagia {
+    font-size: 15px !important;
+    font-style: normal;
+    font-family: 'Lato';
+    margin-bottom: 5px !important;
+  }
+}
+
+@media (min-width: 359px) and (max-width: 780px) {
+  .backheading-imagia, .card-imagia .name-imagia, .frontheading-imagia {
+    font-size: 15px !important;
+    font-weight: 500;
+    margin-top: -5px !important;
+    line-height: 1.3 !important;
+    margin-bottom: 5px !important;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+  .backheading-imagia, .card-imagia .name-imagia, .frontheading-imagia {
+    font-size: 20px !important;
+    font-weight: 500;
+    margin-top: -5px !important;
+    line-height: 1.1 !important;
+    margin-bottom: 5px !important;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 575px) {
+  #frontend-drpdwn-menu {
+    transform: translateX(-7px);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #frontend-drpdwn-menu {
+    transform: translateX(180px);
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #frontend-drpdwn-menu {
+    transform: translateX(300px);
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  #frontend-drpdwn-menu {
+    transform: translateX(390px);
+  }
+}
+
+@media (min-width: 1400px) {
+  #frontend-drpdwn-menu {
+    transform: translateX(481px);
+  }
+}
+
