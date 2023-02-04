@@ -76,11 +76,6 @@
   border-radius: 4px 4px 0 0;
 }
 
-.card-imagia .cover-imagia img {
-  width: 100%;
-  height: auto;
-}
-
 .card-imagia .cover-imagia.cover-gradient {
   background: #ffffff;
   background-image: radial-gradient(circle at 50% 100% , #ADCACE 0%, #89BECE 33%, #34A1C8 66%, #036EAD 100%);

@@ -11,10 +11,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.fa-plus:before {
-  content: "\f067";
-}
-
 .fa-github:before {
   content: "\f09b";
 }
